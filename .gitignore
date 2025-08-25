@@ -1,0 +1,18 @@
+# Data files
+data/
+
+# Models
+models/
+
+# Metrics
+metrics/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Test artifacts
+tests/temp_data/
