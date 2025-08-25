@@ -16,3 +16,6 @@ venv/
 
 # Test artifacts
 tests/temp_data/
+
+# Dashboard
+dashboard.html

@@ -43,6 +43,7 @@ The project is organized into a modular structure to promote reproducibility and
 4.  **Check the results:**
     -   The trained models will be in the `models/` directory (`model.pkl` and `model_smote.pkl`).
     -   The evaluation metrics will be in the `metrics/` directory.
+    -   A performance dashboard is generated at `dashboard.html`. Open this file in your web browser to see a comparison of the models.
 
 ---
 

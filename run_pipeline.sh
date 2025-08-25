@@ -30,4 +30,8 @@ python src/train.py --use-smote
 echo "Evaluating model with SMOTE..."
 python src/evaluate.py --model-name "model_smote.pkl"
 
-echo "Pipeline finished successfully."
+# Step 8: Generate dashboard
+echo "Generating HTML dashboard..."
+python src/generate_dashboard.py
+
+echo "Pipeline finished successfully. The dashboard is available at dashboard.html"
